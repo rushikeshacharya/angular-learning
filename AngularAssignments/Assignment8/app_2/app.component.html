@@ -1,0 +1,14 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Angular:  Two Way Component Communication
+  </h1>
+  <!--
+    Bind the event with the container
+  -->
+  <app-subcomponent [parentMessage]="MessageToChild" (MyEvent)="MessageFromChild= $event"></app-subcomponent>
+
+  <!-- Display the message received from child-->
+  <br>
+  <h2>{{MessageFromChild}}</h2>  
+</div>
