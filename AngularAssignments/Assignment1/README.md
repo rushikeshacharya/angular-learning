@@ -32,3 +32,6 @@ one number from user and print Fibonacci series till that number.
 
     **Input** : 21  
     **Output** : 1 1 2 3 5 8 13 21
+
+___
+
